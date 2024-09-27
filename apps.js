@@ -35,6 +35,6 @@ function calcular(){
     if(vel>60){
         r.innerHTML+= '<p>MULTADO!</p>'
     }
-    r.innerHTML+= `<p> Se beber não dirija! </p>`
+    r.innerHTML+= `<p> Se beber,dirija! </p>`
 }
 
