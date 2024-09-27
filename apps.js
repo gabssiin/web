@@ -27,3 +27,14 @@ function soma(){
    res.innerHTML= `O resultado de ${n1} + ${n2} é igual a <strong> ${s} </strong>`
   
 }
+function calcular(){
+    var txtv = document.getElementById('txtvel') // ou querySelector(input#txtvel)
+    var res = document.querySelector('div#r')
+    var vel = Number(txtv.value)
+    r.innerHTML=  `Sua velocidade é de <strong> ${vel}</strong>`
+    if(vel>60){
+        r.innerHTML+= '<p>MULTADO!</p>'
+    }
+    r.innerHTML+= `<p> Se beber não dirija! </p>`
+}
+
