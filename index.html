@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
+    <title>Progaramação Web 2024.2</title>
     <link rel="stylesheet" href="styles.css">
     <script src="apps.js">JavaScript</script>
 </head>
+
 <body>
-    <h1>Olá mundo!</h1>
-<a href="exercicio.html">ExercicioIRPF</a>
-    <h3>
+    <div class="Pastas">
+    <h1 >Pastas de Exercicio</h1>
+<a href="exercicio.html">ExercicioIRPF</a> 
+ </div>
+
+    <h3 class="Duvidas"> 
         Alguns materiais de apoio para dúvidas: <br>
-        <a href="https://www.w3schools.com/" target="_blank">W3schools!</a>
+        <a href="https://www.w3schools.com/">W3schools!</a>
         <br>
         <a href="https://developer.mozilla.org/en-US/docs/Web/Events">Events Mozilla</a>
     </h3 >
-    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
-        Clique!!! 
-    </div>
+
       
     
-
+<hr>
     <H1>DOM </H1>
     <p>
         DOM (Document Object Model): É uma interface de programação para documentos HTML e XML. Ele representa a estrutura do documento como uma árvore, onde cada nó é um objeto que pode ser manipulado com JavaScript.
@@ -45,16 +47,19 @@ Métodos de Acesso ao DOM:
 </ul>
 
     </p>
-<br><br>
+    <hr>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Clique!!! 
+    </div>
+    <hr>
+<p class="Somador">
 <h1>Somador Usando JavaScript</h1>
 <input type="number" name="=txtn1"id="txtn1"> +
 <input type="number" name="txtn2" id="txtn2">
 <input type="button" value="Somar" onclick="soma()">
 <div id="res">Resultado:</div>
+</p>
 
-<br>
-<br>
-<br>
 <h1>Sistema de multas</h1>
 A velocidade do carro:<input type="number" name="txtvel" id="txtvel"> KM/H
 <input type="button" value="verificar" onclick="calcular()">
