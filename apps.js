@@ -15,7 +15,7 @@ a.innerText='entrou'
 function sair(){var a = document.getElementById('area')
     a.innerText='saiu'
 }
-9
+
 
 function soma(){
     var t1 = document.getElementById('txtn1')

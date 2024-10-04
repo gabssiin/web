@@ -27,3 +27,12 @@ s.length // lê quantos carac a string tem
 s.toUpperCase() // coloca todos os carac em caixa alta
 s.toLowerCase()// coloca tudo em caixa baixa
 */
+
+
+ /* ESTRUTURA switch PARA CONDIÇÕES MULTIPLAS 
+ podemos abrir varias possibilidades dentro de cada case mas para funcionar bem precisamos usar o break*
+ 
+ */
+switch (){
+
+}
