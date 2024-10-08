@@ -33,6 +33,7 @@ s.toLowerCase()// coloca tudo em caixa baixa
  podemos abrir varias possibilidades dentro de cada case mas para funcionar bem precisamos usar o break*
  
  */
+/*
 switch (){
 
-}
+}*/
